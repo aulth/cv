@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+@media(min-width:568px)
+{
+    /* .main1{
+        display: none;
+    } */
+    .line{
+        width: 90%;
+    }
+    .section
+    {
+        display: flex;
+    }
+}
+
+.main
+{
+    width: 100%;
+}
+.main1
+{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.header
+{
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 130px;
+    color: white;
+}
+.header img
+{
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: -70px;
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+}
+.header h1
+{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.header p 
+{
+    margin-left: 20px;
+}
+.content
+{
+    /* display: flex; */
+    width: 100%;
+}
+.rightSide
+{
+    width: 200px;
+    box-sizing: border-box;
+    /* position: absolute;
+    right: 0; */
+    float: right;
+    z-index: -1;
+    padding: 10px;
+    padding-top: 50px;
+    height: 100vh;
+    background-color: rgb(226, 226, 226);
+}
+.leftSide
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    
+}
+.line
+{
+    width: 50%;
+    background-color: gray;
+    
+
+}
+#section-text
+{
+    font-size: 25px;
+    margin-top: 10px;
+}
+#text0
+{
+text-transform: uppercase;
+font-size: 20px;
+font-weight: lighter;
+}
+#text1
+{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.section div
+{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.skills ul li
+{
+    list-style: none;
+    margin: 5px;
+}
