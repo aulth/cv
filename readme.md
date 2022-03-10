@@ -1,1 +1,1 @@
-https://aulth.github.io/portfolio/
+https://aulth.github.io/cv
